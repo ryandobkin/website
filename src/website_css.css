@@ -23,7 +23,7 @@
     }
 
     .link-container {
-        scale: 40%;
+        scale: 70%;
     }
 
     .footer-container {
@@ -39,11 +39,11 @@
     }
 
     .link-container {
-        scale: 40%;
+        scale: 60%;
     }
 
     .footer-container {
-        margin-top: 10vh;
+        margin-top: -10vh;
     }
 }
 
