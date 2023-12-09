@@ -1,3 +1,52 @@
+/* Website */
+
+/* Large */
+@media only screen and (min-device-width: 1024px) {
+    h1 {
+        font-size: 175px;
+    }
+
+    .link-container {
+        width: 120%;
+    }
+
+    .footer-container {
+        margin-top: 50vh;
+    }
+}
+
+
+/* Medium */
+@media only screen and (min-device-width: 768px) and (max-device-width:1023px) { 
+    h1 {
+        font-size: 110px;
+    }
+
+    .link-container {
+        scale: 40%;
+    }
+
+    .footer-container {
+        margin-top: 30vh;
+    }
+}
+
+
+/* Small */
+@media only screen and (min-device-width: 0px) and (max-device-width:767px) { 
+    h1 {
+        font-size: 80px;
+    }
+
+    .link-container {
+        scale: 40%;
+    }
+
+    .footer-container {
+        margin-top: 10vh;
+    }
+}
+
 body {
     margin: 0;
     max-width: 100vw;
@@ -27,6 +76,71 @@ body {
         background-position: 0% 7%;
     }
 }
+
+h1 {
+    position: relative;
+    color: white;
+    font-family: 'ABeeZee';
+
+    text-align: center;
+}
+
+.link-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+    margin: 0;
+    width: 100%;
+}
+
+.square, .square2 {
+    position: relative;
+    background-color: #000000;
+    border-radius: 8px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    transition-duration: 600ms;
+}
+
+.square:hover, .square2:hover {
+    transition-duration: 600ms;
+    filter: invert()
+}
+
+.square img, .square2 img {
+    margin: 1rem 1rem;
+    width: 150px;
+}
+
+.footer_container {
+    min-height: 50vh;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 50vh;
+}
+
+.footer {
+    margin: 0;
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    z-index: 5;
+}
+
+#title_animation {
+    opacity: 100;
+}
+
+
+
+
+
 
 .navbar  {
     position: relative;
@@ -67,58 +181,3 @@ body {
     float: right;
     opacity: 1;
 }
-
-h1 {
-    position: relative;
-    color: white;
-    font-family: 'ABeeZee';
-    font-size: 150px;
-    text-align: center;
-}
-
-h2 {
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    left: 50%;
-    top: 70%;
-}
-
-.link-container {
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    z-index: 6;
-}
-
-.square, .square2, .square3 {
-    height: auto;
-    width: auto;
-    background-color: #000000;
-    border-radius: 8px;
-    margin: 0 1vw;
-}
-
-.square img, .square2 img {
-    max-width: 4vw;
-    height: auto;
-    margin: 1vw;
-}
-
-
-.footer {
-    margin: 0;
-    background-color: black;
-    height: 10vh;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 5;
-}
-
-#title_animation {
-    opacity: 100;
-}
-
-
