@@ -1,5 +1,5 @@
 # website
-website html/css/js
+website files
 
 Using as a development repo for my website for resume/personal development.
-1
+https://www.misinformedcyclone.com
