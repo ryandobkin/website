@@ -70,18 +70,18 @@
 /* Small Height */
 @media only screen and (min-device-height: 680px) and (max-device-height: 1024px) {
     .footer_container {
-        margin-top: 45vh;
+        margin-top: 40vh;
     }
 
     .link-container {
-        scale: 70%;
+        scale: 75%;
     }
 }
 
 /* Tiny Height */
 @media only screen and (min-device-height: 0px) and (max-device-height: 679px) {
     .footer_container {
-        margin-top: 35vh;
+        margin-top: 30vh;
     }
 
     .link-container {
@@ -98,12 +98,13 @@ body {
 }
 
 .bg-color {
-    position: fixed;
+    position: absolute;
+    top: 0;
     background: linear-gradient(-45deg, #00F5C7 0%, #6F7BE5 25%, #F525A4 52%, #E5426F 75%, #ff370a 100%);
     background-size: 800%;
     animation: waveColors 20s ease-in-out infinite;
     width: 100%;
-    height: 1300px;
+    height: 100%;
     z-index: -1;
 }
 
