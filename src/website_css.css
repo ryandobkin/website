@@ -70,7 +70,7 @@
 /* Small Height */
 @media only screen and (min-device-height: 680px) and (max-device-height: 1024px) {
     .footer_container {
-        margin-top: 40vh;
+        margin-top: 35vh;
     }
 
     .link-container {
