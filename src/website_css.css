@@ -5,12 +5,20 @@
     h1 {
         font-size: 8vw;
     }
+
+    .footer_container {
+        margin-top: 50vh;
+    }
 }
 
 /* Med/Large */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1599px) {
     h1 {
         font-size: 10vw;
+    }
+
+    .footer_container {
+        margin-top: 50vh;
     }
 }
 
@@ -21,6 +29,10 @@
         font-size: 12vw;
     }
 
+    .footer_container {
+        margin-top: 50vh;
+    }
+
 }
 
 
@@ -28,6 +40,10 @@
 @media only screen and (min-device-width: 475px) and (max-device-width:767px) { 
     h1 {
         font-size: 18vw;
+    }
+
+    .footer_container {
+        margin-top: 50vh;
     }
 
 }
@@ -44,6 +60,17 @@
 
     .square img, .square2 img {
         width: 35vw;
+    }
+
+    .footer_container {
+        margin-top: 50vh;
+    }
+}
+
+/* Small Height */
+@media only screen and (min-device-height: 0px) and (max-device-height: 999px) {
+    .footer_container {
+        margin-top: 45vh;
     }
 }
 
@@ -120,7 +147,6 @@ h1 {
     width: 100%;
     height: 100%;
     padding-top: 20vh;
-    margin-top: 50vh;
 }
 
 .footer {
