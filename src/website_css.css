@@ -1,13 +1,25 @@
 /* Website */
 
-/* Large */
-@media only screen and (min-device-width: 1600px) {
+/*Very Large*/
+@media only screen and (min-device-width: 2250px) {
     h1 {
         font-size: 8vw;
     }
 
     .footer_container {
         margin-top: 50vh;
+    }
+}
+
+
+/* Large */
+@media only screen and (min-device-width: 1600px) and (max-device-width: 2249px) {
+    h1 {
+        font-size: 8vw;
+    }
+
+    .footer_container {
+        margin-top: 45vh;
     }
 }
 
@@ -18,7 +30,7 @@
     }
 
     .footer_container {
-        margin-top: 50vh;
+        margin-top: 40vh;
     }
 }
 
@@ -79,16 +91,44 @@
 }
 
 /* Tiny Height */
-@media only screen and (min-device-height: 0px) and (max-device-height: 679px) {
+@media only screen and (min-device-height: 246px) and (max-device-height: 679px) {
+    h1 {
+        font-size: 15vw;
+        margin-top: 1vw;
+    }
+
     .footer_container {
-        margin-top: 30vh;
+        margin-top: 20vh;
+    }
+
+    .link-container {
+        scale: 60%;
+    }
+
+    .footer {
+        opacity: 0;
+    }
+}
+
+/* Mini Height */
+@media only screen and (min-device-height: 0px) and (max-device-height: 245px) {
+    h1 {
+        font-size: 10vw;
+        margin-top: 1vw;
+    }
+
+    .footer {
+        opacity: 0;
+    }
+
+    .footer_container {
+        margin-top: 5vh;
     }
 
     .link-container {
         scale: 60%;
     }
 }
-
 body {
     margin: 0;
     max-width: 100vw;
